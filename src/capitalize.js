@@ -1,7 +1,7 @@
 import React from "react";
 
 const capitalize = (string) => {
-  return string.capitalize();
+  return string.toUpperCase();
 };
 
 export default capitalize;
